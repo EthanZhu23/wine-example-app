@@ -21,15 +21,16 @@ git add *
 git commit -m "<your commit message>"
 
 git remote add origin "<your remote repository http link>"
+
 git push -u origin master
 
 6. Log in Heroku and deloy
 
 heroku login
 
-heroku create --stack heroku-20
+heroku create <yourAppName> --stack heroku-20
 
-heroku git:remote -a "<yourAppName>"
+heroku git:remote -a <yourAppName>
 
 git remote -v
 
