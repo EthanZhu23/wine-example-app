@@ -8,6 +8,4 @@ pillow
 protobuf
 click
 streamlit
-ppscore
-seaborn
 
